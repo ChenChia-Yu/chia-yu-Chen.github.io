@@ -1,0 +1,244 @@
+/* GLOBAL******************************************************************* */
+
+    
+    /* BTN */
+    .btn {
+        display: inline-block;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: #fff;
+        background: #1b2a49;
+        border-radius: 5px;
+    }
+    .btn:hover {
+        background: #395896;
+    }
+    .btn-inverse {
+        color: #00171a;
+        background: #9be3de;
+    }
+    .btn-inverse:hover {
+        background: #7ab6b3;
+    }
+    /* GRID */
+    .full-width {
+        width: 100%;
+    }
+    .fixed-width {
+        width: 100%;/*總寬度*/
+        margin: auto;
+    }
+    .col-1{
+        width: calc(100% / 12 * 1);
+    }
+    .col-2{
+        width: calc(100% / 12 * 2);
+    }
+    .col-3{
+        width: calc(100% / 12 * 3);
+    }
+    .col-4{
+        width: calc(100% / 12 * 4);
+    }
+    .col-5{
+        width: calc(100% / 12 * 5);
+    }
+    .col-6{
+        width: calc(100% / 12 * 6);
+    }
+    .col-7{
+        width: calc(100% / 12 * 7);
+    }
+    .col-8{
+        width: calc(100% / 12 * 8);
+    }
+    .col-9{
+        width: calc(100% / 12 * 9);
+    }
+    .col-10{
+        width: calc(100% / 12 * 10);
+    }
+    .col-11{
+        width: calc(100% / 12 * 11);
+    }
+    .col-12{
+        width: calc(100% / 12 * 12);
+    }
+    [class^="col"]{
+        float: left;
+        padding: 15px;
+    }
+    /* GRID DONE */
+    /* NAV ***************************************************/
+    nav {
+        /*height: 60px;*/
+        background: #00909e;
+    }
+    nav .logo {
+        /*float: left;*/
+    }
+    nav .menu {
+        /*float: left;*/
+        /*margin-left: 20px;*/
+    }
+    nav .login {
+        /*float: right;*/
+    }
+    nav li {
+        list-style: none;
+        /*float: left;*/    /*因為屬於直式的格式，所以不需要用到float*/
+    }
+    nav a {
+        display: block;
+        line-height: 50px;
+        color: #fff;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    nav a:hover {
+        color: #1b2a49
+    }
+    /* HEADER */
+    header {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background: url("0001.jpg") no-repeat center center fixed;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+    }
+    /* header {
+        display: table;
+        height: 600px;
+        background: url("https://picsum.photos/id/1/1600/800") no-repeat center center;
+        background-size: cover;
+    }
+    header .fixed-width {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    } */
+
+    header h1 {
+        color:black;
+        font-size: 72px;
+        text-shadow: 2px 2px 3px rgba(255,255,255,.8);
+    }
+    header p {
+        color:black;
+        text-shadow: 2px 2px 3px rgba(255,255,255,.8);
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    header a {
+        color: #fff;
+    }
+    /* PRODUCT */
+    #product {
+        padding-top:100px;
+        padding-bottom:100px;
+        background: #eef5b2;
+    }
+    #product img{
+        padding: 20px;
+    }
+    /* AD */
+    /* #ad {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background: url("https://picsum.photos/id/190/1600/800")no-repeat center center;
+        background-size: cover;
+        text-align: center;
+    } */
+    #ad {
+        height: 0;
+        padding-bottom: 25%;
+    }
+    /* ACTION */
+    #action {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: #dafff0;
+    }
+    #action h3 {
+        font-size: 26px;
+    }
+    #action p {
+        margin: 30px 0;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    /* BUSINESS */
+    #business a {
+        background: #000;
+        display: block;
+    }
+    #business a:hover img{
+        opacity: .5;
+    }
+    #service{
+        padding-top:100px;
+        padding-bottom:100px;
+        background: #9dd8c8;
+    }
+    #service p{
+        margin:30px 0;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    #service-bottom{
+        padding-top: 100px;
+        padding-bottom:100px;
+        background: #daf5ee;
+    }
+    #service-bottom p{
+        margin:30px 0;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    footer{
+        padding-top:100px;
+        padding-bottom:100px;
+        background:#eee;
+    }
+    footer h3{
+        margin-bottom: 15px;
+    }
+    footer li{
+        list-style:none;
+        line-height: 2em;
+        font-size: 14px;
+    }
+    footer a{
+        color:#666;
+        text-decoration: none;
+    }
+    footer .sns a:hover{
+        /*text-decoration: underline;*/
+        color:#eee;
+        border:1px solid #666;
+        background: #666;
+    }
+    .sns a{
+        display:inline-block;
+        border:1px solid #666;
+        width:45px;
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 16px;
+        margin-right: 10px;
+        border-radius:50%;
+    }
+    .sns{
+        font-size: 0;
+    }
+    #copyright{
+        background: #ccc;
+        font-size: 14px;
+    }
+    #copyright a{
+        color:#222;
+        font-size: 14px;
+        margin:0 10px;
+    }
